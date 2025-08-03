@@ -10,15 +10,15 @@
     example:\
     --using des
 
-    - hill
-    : key: a string presentation of list of lists of integers (as a square matrix) or a string which length is some power of two.
+    - hill\
+      key: a string presentation of list of lists of integers (as a square matrix) or a string which length is some power of two.
     
     - vigenere
     
     - auto-key
     
-    - des
-    : key: String of 8 ascii characters\
+    - des\
+      key: String of 8 ascii characters\
       text: String of any number of characters if encrypting or a multiple of 8 characters if decrypting.
 
 - **-t --text** \<string>\
