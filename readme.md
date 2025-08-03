@@ -23,11 +23,11 @@
 
 - **-t --text** \<string>\
     (required) Plaintext to be encrypted or ciphertext to be decrypted.\
-    Some algorithms require specific formatting of the text (see --use).
+    Some algorithms require specific formatting of the text (see --using).
  
 - **-k --key** \<string>\
     (required) A symmetric key used for cryption.\
-    Some algorithms require specific formatting of the key (see --use).
+    Some algorithms require specific formatting of the key (see --using).
 
 - **-e --encrypt**\
     If set, the algorythm will encrypt the text using the key. Otherwise, the algorithm will decrypt instead.
